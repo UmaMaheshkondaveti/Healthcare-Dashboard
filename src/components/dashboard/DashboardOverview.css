@@ -1,0 +1,24 @@
+
+.dashboard-overview-card {
+  background-color: #FFFFFF;
+  color: #111827;
+  border: 1px solid #E5E7EB;
+  border-radius: 0.75rem;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.dashboard-overview-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+@media (min-width: 768px) {
+  .dashboard-overview-content {
+    flex-direction: row;
+  }
+}
+  

@@ -1,0 +1,71 @@
+.activity-feed-header {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: none; 
+  margin-bottom: 0; 
+  padding-bottom: 0; 
+}
+
+.activity-feed-title {
+  font-size: 1.25rem; 
+}
+
+.activity-feed-description {
+  font-size: 0.75rem; 
+}
+
+.activity-feed-content {
+  padding-top: 1rem; 
+}
+
+.activity-chart-container {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 0.5rem; 
+}
+
+@media (min-width: 768px) { 
+  .activity-chart-container {
+    gap: 1rem;
+  }
+}
+
+.activity-chart-day {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activity-chart-bars {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  gap: 2px; 
+}
+
+.activity-chart-bar {
+  width: 6px; 
+  border-top-left-radius: 9999px; 
+  border-top-right-radius: 9999px;
+}
+
+@media (min-width: 768px) { 
+  .activity-chart-bar {
+    width: 8px; 
+  }
+}
+
+.bar-secondary { background-color: #F3F4F6; } 
+.bar-brand { background-color: #06B6D4; } 
+.bar-primary { background-color: #3B82F6; } 
+
+.activity-chart-day-label {
+  margin-top: 8px; 
+  font-size: 0.75rem; 
+  color: #6B7280; 
+}

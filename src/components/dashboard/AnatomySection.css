@@ -1,0 +1,71 @@
+
+.anatomy-section-container {
+  position: relative;
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+@media (min-width: 768px) { 
+  .anatomy-section-container {
+    width: 50%;
+    min-height: 400px; 
+  }
+}
+
+.anatomy-image {
+  object-fit: contain;
+  height: 100%;
+  max-height: 380px;
+}
+
+@media (min-width: 768px) {
+  .anatomy-image {
+    max-height: 420px; 
+  }
+}
+
+.anatomy-search-button {
+  position: absolute;
+  top: 8px; 
+  right: 8px; 
+  background-color: white;
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  border: none;
+  cursor: pointer;
+}
+.anatomy-search-button:hover {
+  background-color: #f3f4f6; 
+}
+
+.anatomy-search-icon {
+  height: 16px; 
+  width: 16px; 
+  color: #4b5563; 
+}
+
+.anatomy-tag {
+  position: absolute;
+}
+
+.anatomy-tag-content {
+  color: white;
+  padding: 6px 12px; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem; 
+}
+
+.anatomy-tag-icon {
+  height: 12px; 
+  width: 12px; 
+  margin-right: 6px; 
+  fill: white;
+}
+  

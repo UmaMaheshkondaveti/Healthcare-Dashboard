@@ -1,0 +1,32 @@
+
+.simple-appointment-card {
+  padding: 0.75rem; /* p-3 */
+  border-radius: 0.75rem; /* rounded-xl */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03); /* shadow-subtle */
+  background-color: #EEF2FF; /* bg-indigo-50 */
+  border: 1px solid #E0E7FF; /* border-indigo-100 */
+}
+
+.simple-appointment-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.simple-appointment-card-title {
+  font-size: 0.75rem; /* text-xs */
+  font-weight: 500; /* font-medium */
+  color: #4338CA; /* text-indigo-700 */
+}
+
+.simple-appointment-card-time {
+  font-size: 10px; /* text-[10px] */
+  color: #6366F1; /* text-indigo-500 */
+}
+
+.simple-appointment-card-icon {
+  height: 16px; /* h-4 */
+  width: 16px; /* w-4 */
+  /* color is set via style prop from iconColorHex */
+}
+  

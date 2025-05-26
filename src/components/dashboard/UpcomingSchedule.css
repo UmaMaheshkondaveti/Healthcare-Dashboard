@@ -1,0 +1,29 @@
+.upcoming-schedule-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+.upcoming-schedule-day-group {
+  margin-bottom: 1rem;
+}
+
+.upcoming-schedule-day-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #6B7280;
+  margin-bottom: 0.5rem;
+}
+
+.upcoming-schedule-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .upcoming-schedule-cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
